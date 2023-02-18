@@ -1,0 +1,66 @@
+{
+  "name": "covid-19-tracker",
+  "description": "Covid-19 Tracker by Zinglecode",
+  "keywords": [
+    "covid-19",
+    "covid19",
+    "coronavirus",
+    "leaflet",
+    "react",
+    "redux",
+    "bulma",
+    "recharts"
+  ],
+  "version": "1.0.4",
+  "author": "Potchara Puttawanchai",
+  "homepage": "https://covid-19-tracker-app.netlify.app/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/potchangelo/covid-19-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/potchangelo/covid-19-tracker.git/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.2.2",
+    "axios": "^0.21.4",
+    "bulma": "^0.9.2",
+    "dayjs": "^1.10.4",
+    "leaflet": "^1.7.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-leaflet": "^3.0.5",
+    "react-redux": "^7.2.2",
+    "react-scripts": "^4.0.1",
+    "recharts": "^2.0.4",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "sass": "^1.32.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
